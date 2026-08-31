@@ -1,0 +1,14 @@
+1. Explicação Simples dos Resultados
+* **Laboratório 1 (Raycasting):** O código funcionou bem para criar os três "lasers" do robô. Deu para ver visualmente que o cálculo da distância funcionou quando os raios encostavam nas bordas da tela ou nos obstáculos desenhados.
+* **Laboratório 2 (Rotação In-Place):** Aqui a ideia foi testar a matemática da coisa. Calculei o tempo que o robô precisava para virar 90 graus e simulei os comandos. No final, o comando de parar funcionou certinho para ele não ficar girando para sempre.
+* **Laboratório 3 (Múltiplos Sensores e Ruído):** Aumentamos para 5 sensores, o que melhorou a "visão" do robô. O mais legal foi colocar o ruído gaussiano, porque os valores na tela começaram a oscilar, simulando bem o que acontece com um sensor de verdade que nunca é 100% preciso na vida real.
+* **Laboratório 4 (Braitenberg - Medo):** O robô andou sozinho pela tela. A lógica reativa funcionou: quando o sensor da direita chegava perto de uma parede, a roda esquerda acelerava e ele desviava. Tudo isso sem ele precisar de um mapa pronto antes.
+* **Laboratório 5 (Go-to-Goal com Desvio):** Esse juntou tudo. O robô ia em direção ao ponto que eu clicava com o mouse, mas se aparecesse um obstáculo no meio do caminho, ele ativava a repulsão, desviava da parede e depois voltava a ir para o alvo original.
+
+### 2. Exercício de Maior Dificuldade
+O **Laboratório 5 (Go-to-Goal com Desvio)** foi de longe o mais difícil de entender. Fazer as coisas separadas é tranquilo (só ir para o alvo ou só desviar), mas misturar as duas lógicas no mesmo loop complicou bastante. Tive que pensar bem em como fazer o robô não ignorar a parede enquanto estava focado em chegar no alvo, equilibrando os ângulos e as forças para ele não ficar travado num canto.
+
+### 3. Impressões Gerais sobre as Dificuldades Técnicas em Robótica Móvel
+A maior dificuldade técnica que senti até agora é a mudança na forma de pensar a lógica de programação. Como estou muito mais acostumado a focar no desenvolvimento de backend, criando APIs estruturadas em Java e Spring Boot, por exemplo, o fluxo de dados costuma ser bem mais previsível: a gente recebe uma requisição, processa a regra e devolve uma resposta. 
+
+Na robótica, o código roda num loop infinito e os dados dos sensores ficam mudando o tempo todo. Ter que aplicar geometria contínua e pensar no controle de um objeto físico que tem que reagir na hora ao ambiente é um desafio mental bem diferente do que lidar com sistemas e softwares tradicionais.
