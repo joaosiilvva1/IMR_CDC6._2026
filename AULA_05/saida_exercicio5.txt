@@ -1,0 +1,3 @@
+indo_para_alvo: estado=IR_PARA_ALVO, v=0.50 m/s, omega=0.695 rad/s
+desviando: estado=DESVIAR_OBSTACULO, v=0.00 m/s, omega=1.000 rad/s
+objetivo: estado=OBJETIVO_ALCANCADO, v=0.00 m/s, omega=0.000 rad/s

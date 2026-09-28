@@ -1,0 +1,5 @@
+Pose atual: (0.0, 0.0, theta=0.000 rad)
+Alvo: (1.0, 1.0)
+Theta alvo: 0.785 rad
+Erro normalizado: 0.785 rad
+Omega (Kp=1.5): 1.178 rad/s

@@ -1,0 +1,4 @@
+Menores distâncias válidas por setor:
+Frente  : 0.35 m
+Esquerda: 0.80 m
+Direita : 0.60 m

@@ -1,0 +1,4 @@
+Entrada: v=1.20 m/s, omega=3.00 rad/s
+Velocidade roda esquerda: 0.682 m/s
+Velocidade roda direita:  1.500 m/s
+Maior módulo após saturação: 1.500 m/s

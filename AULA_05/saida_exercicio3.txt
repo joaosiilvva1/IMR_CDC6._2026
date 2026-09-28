@@ -1,0 +1,6 @@
+obstaculo_frontal:
+  distâncias = {'frente': 0.3, 'esquerda': 1.2, 'direita': 0.6}
+  comando -> v=0.00 m/s, omega=1.00 rad/s
+frente_livre:
+  distâncias = {'frente': 1.5, 'esquerda': 0.8, 'direita': 1.1}
+  comando -> v=0.50 m/s, omega=0.30 rad/s
